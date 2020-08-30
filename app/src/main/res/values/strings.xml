@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">dz_5_1_1_and</string>
+    <string name="name_dz">Сохранение текстового файла</string>
+
+    <string-array name="sa_sample">
+        <item>Первый Android проект/Введение в Android. Краткий обзор компонентов/Иванов А.И.</item>
+        <item>Собственный Hello world/Введение в Android. Краткий обзор компонентов/Иванов А.И.</item>
+        <item>Универсальная форма ввода/Приложение “Hello world”/Иванов А.И.</item>
+        <item>Бесконечный переход между экранами/Приложение “Hello world”/Иванов А.И.</item>
+        <item>Система мониторинга здоровья/Проектирование интерфейсов/Иванов А.И.</item>
+        <item>Взаимоисключающие CheckBox/Компоненты View. Иерархия Views/Иванов А.И.</item>
+        <item>Spinner «Страны-города-улицы»/Компоненты View. Иерархия Views/Иванов А.И.</item>
+        <item>CalendarView «Сроки задачи»/Компоненты View. Иерархия Views/Иванов А.И.</item>
+        <item>Записная книжка в SharedPreferences/Компоненты ViewGroup. SharedPrefs/Иванов А.И.</item>
+        <item>AppBar приложения/Компоненты ViewGroup. SharedPrefs/Иванов А.И.</item>
+        <item>Интерфейс калькулятора/Верстка графического интерфейса в Android/Иванов А.И.</item>
+        <item>Действия калькулятора/Верстка графического интерфейса в Android/Иванов А.И.</item>
+        <item>Цепочка текста/Другие Виды Layouts/Иванов А.И.</item>
+        <item>Инженерный вид калькулятора/Другие Виды Layouts/Иванов А.И.</item>
+        <item>Адаптивная горизонтально-вертикальная верстка/App resources, Config qualifier/Иванов А.И.</item>
+        <item>Страница переключения языка/App resources, Config qualifier/Иванов А.И.</item>
+        <item>Переключение цветов в приложении/Android styles/Иванов А.И.</item>
+        <item>Переключение отступов в приложении/Android styles/Иванов А.И.</item>
+        <item>Отображение ListView/Базовые списки/Иванов А.И.</item>
+        <item>Взаимодействие с ListView/Базовые списки/Иванов А.И.</item>
+        <item>Список с custom элементами/Работа с конфигурируемым интерфейсом на примере списков. Классы Adapter, AdapterView/Иванов А.И.</item>
+        <item>Перехват событий на элементах/Работа с конфигурируемым интерфейсом на примере списков. Классы Adapter, AdapterView/Иванов А.И.</item>
+    </string-array>
+
+    <string name="autor">Автор: Иванов А.И.</string>
+    <string name="str_txt_act_name">Форма добавления элемента списка</string>
+    <string name="str_lbl_title">Название приложения</string>
+    <string name="str_lbl_category">Название темы</string>
+    <string name="str_lbl_autor">Автор</string>
+    <string name="str_btn_save">Сохранить</string>
+
+    <string name="str_file_name">samples.txt</string>
+</resources>

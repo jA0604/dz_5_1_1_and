@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+
+    <ImageView
+        android:id="@+id/img_item"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_app_name" />
+
+    <TextView
+        android:id="@+id/txt_app_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/gl_chk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/app_toolbar"
+        tools:layout_editor_absoluteY="12dp"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/txt_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/gl_autor"
+        app:layout_constraintStart_toStartOf="@+id/txt_app_name"
+        app:layout_constraintTop_toBottomOf="@+id/txt_app_name"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/txt_autor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/txt_category"
+        app:layout_constraintEnd_toStartOf="@+id/gl_chk"
+        app:layout_constraintStart_toStartOf="@+id/gl_autor"
+        tools:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/ibtn_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="@+id/txt_category"
+        app:layout_constraintStart_toEndOf="@+id/gl_chk"
+        app:layout_constraintTop_toTopOf="@+id/txt_app_name"
+        app:srcCompat="@drawable/ic_trash" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gl_autor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.64" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
